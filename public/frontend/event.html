@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>13NADIMUSIK</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/images/favicon_default.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="assets/css/select2-custom.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.min.css" rel="stylesheet">
+    <link href="assets/css/scrollbar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/images/logo_default.png" alt="">
+            </a>
+        </div>
+        <!-- End Logo -->
+
+        <div class="flex-fill"></div>
+
+        <div class="search-bar ms-auto">
+            <form class="search-form d-flex align-items-center" method="POST" action="#">
+                <input class="search-bar" type="text" name="query" placeholder="Search" title="Enter search keyword" style="background:#3A415A;">
+                <button class="search-btn" type="submit" title="Search"><i class="bi bi-search text-secondary"></i></button>
+            </form>
+        </div>
+        <!-- End Search Bar -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link nav-icon search-bar-toggle " href="#">
+                        <i class="ri-search-line"></i>
+                    </a>
+                </li>
+                <!-- End Search Icon-->
+
+
+                <li class="nav-item dropdown pe-3">
+
+                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                    <span class="d-none d-md-block px-2 text-white">Indonesia</span>
+                    <img src="assets/images/logo-Indonesia-bulat.png" alt="Profile" class="rounded-circle">
+                </a>
+                <!-- End Profile Iamge Icon -->
+
+                <!-- <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <span>Sign Out</span>
+                        </a>
+                    </li>
+
+                </ul> -->
+                <!-- End Profile Dropdown Items -->
+                </li>
+                <!-- End Profile Nav -->
+
+            </ul>
+        </nav>
+        <!-- End Icons Navigation -->
+
+    </header>
+    <!-- End Header -->
+  
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+        <ul class="sidebar-nav" id="sidebar-nav">
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="index.html">
+                    <i class="ri-home-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="artist.html">
+                    <i class="ri-group-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">Artist</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="news.html">
+                    <i class="ri-article-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">News</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="event.html">
+                    <i class="ri-calendar-event-fill px-2 py-1 rounded bg-icon-sidebar text-white"></i><span">Event</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="demo.html">
+                    <i class="ri-send-plane-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">Demo</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="about-us.html">
+                    <i class="ri-question-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">About Us</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="careers.html">
+                    <i class="ri-briefcase-4-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i><span class="text-secondary">Careers</span>
+                </a>
+            </li>
+            <li class="nav-heading mt-5 mb-3">Social Media</li>
+            <li class="nav-item nav-social d-flex justify-content-center">
+                <a class="nav-link collapsed p-0" href="">
+                    <i class="ri-instagram-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i>
+                </a>
+                <a class="nav-link collapsed p-0" href="">
+                    <i class="ri-twitter-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i>
+                </a>
+                <a class="nav-link collapsed p-0" href="">
+                    <i class="ri-youtube-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i>
+                </a>
+                <a class="nav-link collapsed p-0" href="">
+                    <i class="ri-facebook-fill px-2 py-1 rounded bg-icon-sidebar2 text-secondary"></i>
+                </a>
+            </li>
+            <li class="nav-heading mt-3" style="font-size:8px;">
+                &copy; Copyright <strong><span>Busdev 2022</span></strong> | All Rights Reserved
+            </li>
+        </ul>
+
+    </aside>
+    <!-- End Sidebar-->
+
+    <!-- ======= Main ======= -->
+    <main id="main" class="main mb-5">
+
+        <div class="pagetitle">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        Event
+                    </li>
+                </ol>
+            </nav>
+        </div>
+        <!-- ======= Event Section ======= -->
+        <section id="team" class="team">
+            <div class="container-fluid" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-news mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="assets/images/event.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">long established</h5>
+                                        <p class="card-text">
+                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                        </p>
+                                        <p class="card-text">
+                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <a href="#" class="card-link text-muted">Apr 22th 2022</a>
+                                            <a href="#" class="card-link link-news">Another link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End News Section -->
+
+    </main>
+    <!-- End #Main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer py-5 mt-5">
+        <div class="copyright">
+            <div class="row text-start mx-5 text-white align-items-center">
+                <div class="col-md-6">
+                    <h3>Our Contact Details</h3>
+                    <h6>Let's Connect</h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>Telephone</h6>
+                    <p>+62 851 1234 1234</p>
+                    <h6 class="mt-3">WhatsApp</h6>
+                    <p>+62 851 1234 1234</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Office</h6>
+                    <p>Jakarta Timur, Indonesia</p>
+                    <h6 class="mt-3">Email</h6>
+                    <p>hello@nadimusik.com</p>
+                </div>
+            </div>
+        <!-- &copy; Copyright <strong><span>Abdurrah GM Project</span></strong>. All Rights Reserved -->
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.min.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.0/dist/sweetalert2.all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- Template API Youtube JS File -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="assets/js/api-yt.js"></script>
+
+</body>
+
+</html>

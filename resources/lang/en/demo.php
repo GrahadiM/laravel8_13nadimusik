@@ -1,0 +1,20 @@
+<?php
+return [
+    "your_name"=>"Your Name",
+    "input_name"=>"Input Name",
+    "phone_number"=>"Phone Number",
+    "input_number"=>"Input Number",
+    "email_address"=>"Email address",
+    "enter_email"=>"Enter Email",
+    "description"=>"Description",
+    "input_description"=>"Input Description",
+    "accept_tos"=>"I Accept the as well as",
+    "tos"=>"Terms of Service",
+    "accept_pp"=>"as well as",
+    "pp"=>"Privacy Policy",
+    "upload_file"=>"Upload File",
+    "upload"=>"Upload",
+    "send_demo"=>"Send Demo",
+    "quote"=>"Your time is limited, so don’t waste it living someone else’s life.",
+    "created_at"=>"Created at",
+];
